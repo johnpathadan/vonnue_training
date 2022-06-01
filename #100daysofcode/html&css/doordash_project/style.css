@@ -1,0 +1,437 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#welcome-content{
+    background-image: url('images/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+}
+
+#header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+#none{
+    visibility: hidden;
+}
+
+#logo{
+    /* padding-top: 30px; */
+    width: 225px;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.header-nav{
+    padding-right: 25px;
+    /* margin-right: 15px; */
+}
+
+.header-nav a{
+    text-decoration: none;
+    
+}
+
+#sign-in a{
+    color: white;
+    font-weight: bold;
+}
+
+#sign-in{
+    font-size: 18px;
+    /* color: white; */
+    
+}
+
+#sign-up a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.signup-button{
+    background-color: white;
+    padding: 8px 15px;
+    
+    border-radius: 25px;
+    margin-top: -5px;
+}
+
+.showcase{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.just-logo{
+    width: 1px;
+    visibility: hidden;
+}
+
+.main-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+/* #searchBar{
+    position: relative;
+    
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid white;
+  text-align: left;
+  height: 40px;
+  width: 360px;
+  padding-left: 40px;
+  left: 35%;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.search-box{
+    position: relative;
+    
+    background-color: black;
+    
+}
+
+#input-arrow{
+    position: absolute;
+  height: 38px;
+  width: 38px;
+  background-color: red;
+  border: 1px transparent;
+  border-radius: 38px;
+  right: 0;
+  margin-right: 4px;
+  margin-top: 23px;
+  font-size: 1.4rem;
+  color: white;
+  cursor: pointer;
+  outline: none;
+} */
+
+.showcase-search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .searchbar-items {
+    position: relative;
+  }
+  
+  #search-text {
+    height: 42px;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: white;
+    border: none;
+    text-align: left;
+    
+    outline: none;
+    width: 360px;
+    padding-left: 40px;
+    font-size: 16px;
+  }
+  
+  #submit-button {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    background-color: red;
+    border: 1px transparent;
+    border-radius: 38px;
+    right: 0;
+    margin-right: 4px;
+    margin-top: 23px;
+    font-size: 1.4rem;
+    color: white;
+    cursor: pointer;
+    outline: none;
+  }
+
+
+
+.info-area{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+  margin: 130px 50px;
+  margin-bottom: 80px;
+  height: 400px;
+}
+
+.info-pic{
+    width: 200px;
+}
+
+.info-first, .info-second, .info-third{
+    width: 33%;
+    text-align: center;
+}
+
+.info-area a{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+    margin-top: 5%;
+}
+
+.info-area p{
+    font-weight: 600;
+    margin: 5%;
+}
+
+.one-app{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    padding: 20px;
+    text-align: start;
+}
+.food-div1{
+    width: 50vw;
+    position: relative;
+    left: 10%;
+}
+.text-left h2{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.text-left p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    /* font-weight: 600; */
+}
+.food-div2{
+    width: 50vw;
+    position: relative;
+    right: 10%;
+}
+
+#get-app{
+    background-color: red;
+  border-radius: 25px;
+  width: 120px;
+  height: 40px;
+  padding: 0 15px;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.flavour-welcome{
+    /* margin: 5px, 25px; */
+    margin-top: -35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* height: 800px; */
+    background-color: bisque;
+    height: 600px;
+}
+
+.sub-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.food-div2{
+    margin: 5%;
+}
+.text-right h2{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.text-right p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#find-restaurants{
+    background-color: red;
+  border-radius: 25px;
+  width: 170px;
+  height: 40px;
+  padding: 0 15px;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 900;
+  
+}
+
+.text-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    margin-left: 5%;
+    padding: 20px;
+    text-align: start;
+}
+
+
+
+/* footer */
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+footer h4{
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    list-style: none;
+    font-weight: 500;
+    color: gray;
+}
+
+li:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer .row-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer .row-1 .row-1-section-1{
+    display: flex;
+    flex-direction: column;
+    margin-right: -300px;
+    
+}
+
+.cities-served{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.cities-section-1 li, .cities-section-2 li, .cities-section-3 li,
+.cuisine-section-1 li, .cuisine-section-2 li{
+    padding-right: 50px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+footer .row-1 .row-1-section-2{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 90px;
+    margin-bottom: 50px;
+}
+
+.footer-cuisines{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.bottom-section-1 ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.bottom-section-1 ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bottom-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.bottom-section-2 ul{
+    display: flex;
+    flex-direction: row;
+} 
+
+.info-section-1 li, .help-section-1 li, .doing-section-1 li{
+    padding-right: 50px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+footer .bottom-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 120px;
+}
+
+.bottom-section-1 ul li{
+    margin-left: 27px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.footer-logo{
+    width: 25px;
+}

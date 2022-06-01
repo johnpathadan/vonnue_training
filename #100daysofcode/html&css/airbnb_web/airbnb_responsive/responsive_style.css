@@ -1,0 +1,28 @@
+@media screen and (max-width: 800px) {
+    
+    .header{
+        padding-top: 25px;
+      height: 40px;
+    }
+
+    .logo{
+        width: 80px;
+        margin-left: 20px;
+    }
+
+    .navLink{
+        visibility: hidden;
+    }
+
+    .ukraine-text-box{
+        height: 300px;
+    }
+
+    .ukraine-text{
+        top: 35%;
+        left: 0;
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+    }
+  }

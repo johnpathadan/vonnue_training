@@ -1,0 +1,67 @@
+// //HTML
+// <div class="modal-container" id="modal_container">
+//     <div class="modal">
+//         <button id="close">X</button>
+//         <div id="footer-options">
+//             <ul>
+//                 <p>Support</p>
+//                 <li>Help Centre</li>
+//                 <li>AirCover</li>
+//                 <li>Safety information</li>
+//                 <li>Supporting people with disabilities</li>
+//                 <li>Cancellation options</li>
+//                 <li>Our COVID-19 Response</li>
+//                 <li>Report a neighbourhood concern</li>
+//             </ul>
+//             <ul>
+//                 <p>Community</p>
+//                 <li>Airbnb.org: disaster relief housing</li>
+//                 <li>Support Afghan refugees</li>
+//                 <li>Combating discrimination</li>
+//             </ul>
+//             <ul>
+//                 <p>Hosting</p>
+//                 <li>Try hosting</li>
+//                 <li>AirCover for Hosts</li>
+//                 <li>Explore hosting resources</li>
+//                 <li>Visit our community forum</li>
+//                 <li>How to host responsibly</li>
+//             </ul>
+
+//             <ul>
+//                 <p>About</p>
+//                 <li>Newsroom</li>
+//                 <li>Learn about new features</li>
+//                 <li>Letter from our founders</li>
+//                 <li>Careers</li>
+//                 <li>Investors</li>
+//             </ul>
+//         </div>
+//     <br>
+//     </div>
+// </div>
+
+// //css
+// .modal{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+// }
+
+// .modal-container{
+//     width: 100vw;
+//     height: 100vw;
+//     background-color: rgba(0,0,0,0.3);
+//     position: fixed;
+//     bottom: 0;
+// }
+
+// .modal #footer-options{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+// }
+
+// .modal #footer-options ul{
+//     margin-left: 15px;
+// }

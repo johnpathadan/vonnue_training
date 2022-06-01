@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 80px;
+  }
+
+  .logo {
+    width: 100px;
+    margin-left: 60px;
+  }
+
+  .navLink {
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    text-decoration: none;
+  }
+  
+  .navLink li {
+    margin: 20px;
+    font-size: 18px;
+  }
+  
+  .navLink li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .host {
+    display: flex;
+    list-style: none;
+    margin-right: 60px;
+  }
+  
+  .host li {
+    margin: 20px;
+    font-size: 18px;
+  }
+  
+  .host li a {
+    text-decoration: none;
+    color: white;
+  }
+
+/* header */
+
+/* Ukraine */
+.ukraine{
+    display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  height: 1200px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: relative;
+  text-align: center;
+}
+
+.ukraine-text-box{
+    width: 90%;
+    height: 400px;
+  border-radius: 10px;
+  justify-content: center;
+  position: absolute;
+  /* bottom: 20%; */
+  background-color: purple;
+}
+
+.ukraine-text{
+    position: absolute;
+  top: 40%;
+  left: 20%;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  
+}
+
+.learn-more-btn{
+    border-width: 2px;
+    border-color: white;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+    position: absolute;
+    top: 60%;
+}
+/* ukraine */
+
+
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+
+/* flexible travel */
+.flexible{
+    position: relative;
+    top: -250px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url('https://a0.muscache.com/im/pictures/8aa32150-e831-40aa-98f5-b743b44c6b27.jpg?im_w=960');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+}
+.flexible-book-text{
+    position: relative;
+  top: 60%;
+  left: 20%;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+.flexible-book-btn{
+    position: relative;
+    top: 65%;
+    left: 40%;
+    /* border: none;
+    padding: 25px;
+    border-radius: 50%;
+    font-size: 24.0;
+    cursor: pointer;
+    color: purple;  */
+    border: none;
+    background-color: white;
+    color: purple;
+    border-radius: 25px;
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 900;
+    /* position: relative; */
+    bottom: 380px;
+    /* margin-left: 30px; */
+    
+}
+
+/* flexible travel */
+
+  /* Inspiration section */
+  .city {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inspiration-trip {
+    width: 100%;
+  }
+
+  .inspiration-trip-title {
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .inspiration-trip-location {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .location-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .city-detail {
+    padding: 25px;
+    flex: 1;
+    background-color: tomato;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 250px;
+  }
+
+  .city-detail-1 {
+    padding: 25px;
+    flex: 1;
+    background-color: rgb(255, 71, 178);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 250px;
+  }
+  
+  .city-detail-2 {
+    padding: 25px;
+    flex: 1;
+    background-color: rgb(230, 39, 5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 250px;
+  }
+  
+  .city-detail-3 {
+    /* margin-top: 25px;
+    margin-bottom: 25px; */
+    padding: 25px;
+    flex: 1;
+    background-color: rgb(161, 32, 9);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 250px;
+  }
+
+  .city-name {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 0px;
+  }
+
+  .city-distance {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+
+
+/* Discover section */
+
+
+  .discover-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-bottom: 0px;
+  }
+
+  .discover-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .discover-image-1 {
+      /* margin: 10%; */
+    width: 620px;
+    /* margin: 5%; */
+    border-radius: 10px;
+  }
+
+  .experiences {
+    margin-left: 5%;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 400px;
+  }
+
+  .experience-btn {
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    bottom: 380px;
+    margin-left: 5%;
+  }
+  
+  .online-experience-btn {
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 900;
+    position: relative;
+    bottom: 380px;
+    margin-left: 30px;
+  }
+
+/* Super host section */
+
+
+
+  .bottom-image-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .bottom-image {
+    width: 100%;
+    justify-content: stretch;
+    height: 700px;
+    position: absolute;
+  }
+  
+  .bottom-image-text {
+    position: absolute;
+    left: 100px;
+  }
+  
+  .question {
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .ask-superhost {
+    border: none;
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    font-weight: 450;
+    margin-top: 300px;
+    cursor: pointer;
+  }
+  
+
+
+
+/* footer section */
+  .future-getaways {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  .bottom-nav-link div {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+  }
+  
+  .future-getaways-title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .bottom-nav-link div button {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    height: 40px;
+  }
+  
+  .bottom-nav-link div button:hover {
+    background-color: rgb(241, 239, 239);
+    border-radius: 5px;
+  }
+  
+  .loctaions-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .location-nav-link {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .location-nav-link-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .location-city {
+    margin-bottom: 20px;
+    color: gray;
+  }
+  
+  .location-nav-link-item span {
+    cursor: pointer;
+  }
+  
+  .show-more {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    height: 450px;
+    background-color: rgb(241, 238, 238);
+  }
+  .footer-item {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  .location-nav-link {
+    margin-top: 50px;
+  }
+  
+  .location-nav-link-title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .footer-nav-link-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-nav-link-item span {
+    margin-top: 20px;
+  }
+  
+  .footer-nav-link-item span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  hr {
+    margin: 50px;
+  }
+  
+  .copyright-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+  }
+  
+  .currency {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .currency div {
+    margin-right: 45px;
+  }
+  
+  

@@ -1,0 +1,10 @@
+.azure-discovery .discover-grid{
+    height: 550px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-areas: 
+    "one two three three"
+    "four five five six";
+    box-sizing: border-box;
+    gap: 15px;
+}
