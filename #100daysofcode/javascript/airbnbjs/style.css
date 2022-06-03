@@ -14,6 +14,8 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 0.5px solid rgb(212, 210, 210);
+    /* position: fixed; */
+    background-color: white;
 }
 #header #headerLogo{
     width: 85px;
@@ -159,6 +161,7 @@
     border: 1px solid rgb(219, 216, 216);
     border-radius: 15px;
     margin-top: 10px;
+    /* position: fixed; */
 }
 
 #navbar2{
