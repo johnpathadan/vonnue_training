@@ -1,0 +1,9 @@
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+
+    #listing{
+        grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
