@@ -5,6 +5,7 @@
     #header {
         border-bottom: none;
         padding: 0 20px;
+        margin-top: 5px;
     }
     .mobile-search-bar {
         visibility: visible;
