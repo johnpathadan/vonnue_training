@@ -2,9 +2,30 @@
     .mobile-disappear {
         display: none;
     }
+    #header {
+        border-bottom: none;
+    }
     #listing {
         grid-template-rows: repeat(12, 1fr);
         grid-template-columns: repeat(1, 1fr);
+    }
+    #showMap {
+        left: 35%;
+    }
+    #showMap:hover {
+        left: 34.5%;
+    }
+    #navbar2 {
+        padding: 0;
+    }
+    .each-option {
+        margin-right: 30px;
+    }
+    #margin-top {
+        margin-top: 3em;
+    }
+    #continueExploring {
+        display: none;
     }
     footer {
         display: none;
