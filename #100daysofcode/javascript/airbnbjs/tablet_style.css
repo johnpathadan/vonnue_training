@@ -17,4 +17,7 @@
     .house-container {
         margin-bottom: 25px;
     }
+    #continueExploring {
+        display: none;
+    }
 }
