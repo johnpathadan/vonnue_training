@@ -1,9 +1,20 @@
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) {
-
-    #listing{
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    #header #headerLogo {
+        visibility: hidden;
+        width: 1px;
+        height: 1px;
+    }
+    #header .only-tab {
+        visibility: visible;
+        width: 30px;
+        height: 30px;
+        margin-right: 35px;
+    }
+    #listing {
         grid-template-rows: repeat(6, 1fr);
-    grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .house-container {
+        margin-bottom: 25px;
     }
 }

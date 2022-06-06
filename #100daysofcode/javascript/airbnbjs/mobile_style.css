@@ -5,9 +5,15 @@
     #header {
         border-bottom: none;
     }
+    .desktop-disappear {
+        visibility: visible;
+    }
     #listing {
         grid-template-rows: repeat(12, 1fr);
         grid-template-columns: repeat(1, 1fr);
+    }
+    .house-container {
+        margin-bottom: 25px;
     }
     #showMap {
         left: 35%;
