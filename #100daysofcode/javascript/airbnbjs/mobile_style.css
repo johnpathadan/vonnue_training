@@ -63,6 +63,8 @@
     }
     #navbar2 {
         padding: 0;
+        margin-left: 10px;
+        border-bottom: 0.5px solid rgb(201, 196, 196);
     }
     .each-option {
         margin-right: 30px;
