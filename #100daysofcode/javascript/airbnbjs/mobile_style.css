@@ -1,14 +1,12 @@
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px) {
-
-    #listing{
-        grid-template-rows: repeat(12, 1fr);
-    grid-template-columns: repeat(1, 1fr);
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .mobile-disappear {
+        display: none;
     }
-
-
-    footer{
+    #listing {
+        grid-template-rows: repeat(12, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer {
         display: none;
     }
 }

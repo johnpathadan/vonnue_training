@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,11 +14,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/31951f612d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header id="header">
-        <img id="headerLogo" src="images/logo.svg" alt="">
+        <img class="mobile-disappear" id="headerLogo" src="images/logo.svg" alt="">
 
-        <div class="searchBar">
+        <div class="searchBar mobile-disappear">
             <button class="searchText">Anywhere</button>
             <span></span>
             <button class="searchText">Any week</button>
@@ -25,11 +27,13 @@
             <button class="searchText2">Add guests <div class="searchBar_icon">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div></button>
-            
+
 
         </div>
-
-        <div class="userSection">
+        <div>
+            <button class="desktop-disappear">i</button>
+        </div>
+        <div class="userSection mobile-disappear">
             <p>Switch to hosting</p>
             <i class="globe fa-solid fa-globe"></i>
             <div class="userOptions">
@@ -115,12 +119,12 @@
                 <p>Country side</p>
             </div>
         </div>
-            <div id="navbar2-filter">
-                <button id="nav2-button" type="button">
+        <div id="navbar2-filter" class="mobile-disappear">
+            <button id="nav2-button" type="button">
                     <i id="nav2-button-icon" class="fa-solid fa-sliders"></i>
                     Filter
                 </button>
-            </div>
+        </div>
     </div>
 
 
@@ -318,33 +322,34 @@
             </div>
         </div>
     </div>
-<div id="showMap">
-    <p>Show map <i class="fa-regular fa-map"></i></p>
-</div>
-
-<div id="continueExploring">
-    <h3>Continue exploring OMG! stays</h3>
-    <button type="button">Show more</button>
-</div>
-
-<footer>
-    <div id="leftSide">
-        <p>&#169; 2022 AirBnB Inc.</p>
-        
-        <p>.   Privacy</p>
-        <p>.   Terms</p>
-        <p>.   Sitemap</p>
-        <p>.   Company details</p>
-        <!-- <i class="fa-solid fa-globe"></i> -->
+    <div id="showMap">
+        <p>Show map <i class="fa-regular fa-map"></i></p>
     </div>
-    <div id="rightSide">
-        <p><i class="fa-solid fa-globe"></i> English(IN)</p>
-        <p>₹ INR</p>
-        <p id="open">Support & resources <i class="fa-light fa-angle-up"></i></p>
+
+    <div id="continueExploring">
+        <h3>Continue exploring OMG! stays</h3>
+        <button type="button">Show more</button>
     </div>
-    
-</footer>
+
+    <footer>
+        <div id="leftSide">
+            <p>&#169; 2022 AirBnB Inc.</p>
+
+            <p>. Privacy</p>
+            <p>. Terms</p>
+            <p>. Sitemap</p>
+            <p>. Company details</p>
+            <!-- <i class="fa-solid fa-globe"></i> -->
+        </div>
+        <div id="rightSide">
+            <p><i class="fa-solid fa-globe"></i> English(IN)</p>
+            <p>₹ INR</p>
+            <p id="open">Support & resources <i class="fa-light fa-angle-up"></i></p>
+        </div>
+
+    </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
