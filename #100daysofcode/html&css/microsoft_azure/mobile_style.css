@@ -1,127 +1,99 @@
-@media  screen and (max-width: 500px) {
-    
-    header .navigation .mobile-invisible{
+@media screen and (max-width: 500px) {
+    header .navigation .mobile-invisible {
         display: none;
     }
-
-    header .navigation{
+    header .navigation {
         margin-right: 50px;
     }
-
-    header .navigation #nav-logo{
+    header .navigation #nav-logo {
         position: relative;
         left: 125px;
     }
-
-    header .small-screen-visible{
+    header .small-screen-visible {
         visibility: visible;
         cursor: pointer;
     }
-
-    .covid{
+    .covid {
         height: 60px;
         font-size: 12px;
         font-weight: bolder;
     }
-
-    .showcase{
-       background-size: cover;
-       /* background-position-x: 25px; */
+    .showcase {
+        background-size: cover;
+        /* background-position-x: 25px; */
     }
-
-    .showcase h1{
+    .showcase h1 {
         font-size: 32px;
     }
-
-    .showcase button{
+    .showcase button {
         width: 80vw;
     }
-
-    .showcase button:hover{
+    .showcase button:hover {
         text-decoration: underline;
     }
-
-    .more-info h2{
+    .more-info h2 {
         font-size: 20px;
         margin-top: 18px;
         margin-bottom: 18px;
     }
-
-    .more-info{
+    .more-info {
         margin: 10px 10px;
     }
-
-    .more-info .more-info-divs{
+    .more-info .more-info-divs {
         display: flex;
-    flex-direction: column;
-    margin-left: 15px;
+        flex-direction: column;
+        margin-left: 15px;
     }
-
-    .more-info-divs .more-info-div-left{
+    .more-info-divs .more-info-div-left {
         width: 80vw;
         height: 150px;
         margin: 2px;
-
     }
-
-    .more-info-divs .more-info-div-left h3{
+    .more-info-divs .more-info-div-left h3 {
         font-size: 16px;
     }
-
-    .more-info-divs .more-info-div-left p{
+    .more-info-divs .more-info-div-left p {
         font-size: 14px;
     }
-
-    .more-info-divs .more-info-div-right{
+    .more-info-divs .more-info-div-right {
         width: 90%;
     }
-
-    .more-info-div-right p{
+    .more-info-div-right p {
         display: none;
     }
-
-    .more-info-div-right h3{
+    .more-info-div-right h3 {
         margin-top: 30px;
     }
-
-    .more-info-div-right h3:hover{
+    .more-info-div-right h3:hover {
         text-decoration: underline;
         cursor: pointer;
-
     }
-
-    .new-to-azure{
+    .new-to-azure {
         flex-direction: column;
         margin-left: 25px;
         margin-bottom: 40px;
         width: 85%;
     }
-
-    .new-to-azure p{
+    .new-to-azure p {
         text-align: center;
         padding-left: 25px;
         margin-left: 6px;
         box-sizing: border-box;
     }
-
     /* feature starts */
-    .features{
+    .features {
         height: 1000px;
     }
-
-    .feature-columns{
+    .feature-columns {
         flex-direction: column;
-        
     }
-
-    .feature-columns .feature-options{
+    .feature-columns .feature-options {
         margin-left: 40px;
     }
-    .feature-columns .feature-options .not-popular{
+    .feature-columns .feature-options .not-popular {
         display: none;
     }
-
-    .feature-containers{
+    .feature-containers {
         width: 40vw;
         height: auto;
         display: grid;
@@ -129,128 +101,97 @@
         grid-template-rows: repeat(3, 1fr);
         gap: 10px;
     }
-
-    .features .feature-columns .feature-image img{
-        display:grid;
+    .features .feature-columns .feature-image img {
+        display: grid;
     }
     /* feature ends */
-
-    .customer-feedback h2{
+    .customer-feedback h2 {
         font-size: 20px;
         margin: 20px;
     }
-
-    .customer-feedback .brand-logos .mobile-none{
+    .customer-feedback .brand-logos .mobile-none {
         display: none;
     }
-    .customer-feedback .brand-logos{
+    .customer-feedback .brand-logos {
         margin-top: 2px;
-        margin-bottom:85px;
+        margin-bottom: 85px;
     }
-
-    .customer-feedback .nba-feedback{
+    .customer-feedback .nba-feedback {
         margin-top: 50px;
         background-size: cover;
         height: 250px;
     }
-
-    .customer-feedback .nba-feedback .feedback-text #feedback-text-info{
+    .customer-feedback .nba-feedback .feedback-text #feedback-text-info {
         font-size: 13px !important;
     }
-
-    .customer-feedback .nba-feedback .feedback-text #feedback-text-link{
+    .customer-feedback .nba-feedback .feedback-text #feedback-text-link {
         color: black;
         font-size: 12px;
     }
-
-    .migration{
+    .migration {
         display: flex;
         flex-direction: column;
     }
-
-    .migration .migration-right .migration-text{
+    .migration .migration-right .migration-text {
         margin-left: 20px;
         margin-top: 20px;
     }
-
-    .migration .migration-right button{
+    .migration .migration-right button {
         width: 90%;
     }
-
-
     /* discovery */
-
-    .azure-discovery .discover-grid{
+    .azure-discovery .discover-grid {
         height: 1000px;
         /* border: 1px solid black; */
         display: grid;
-        grid-template-areas: 
-        "one two"
-        "three three"
-        "four six"
-        "five five";
+        grid-template-areas: "one two" "three three" "four six" "five five";
         box-sizing: border-box;
         row-gap: 25px;
-
     }
-
-    .item{
+    .item {
         height: 250px;
     }
     /* discovery ends */
-
     /* developer story */
-.developer-story{
-    margin-top: 250px;
-    /* border: 2px solid black; */
-    background-size: cover;
-}
-
-.developer-story .story-content{
-    background-color: antiquewhite;
-    color: rgb(63, 63, 63);
-    font-weight: bolder;
-    padding-top: 25px;
-    
-    width: 100%;
-    left: 0;
-    top: 404px;
-    /* box-sizing: border-box; */
-}
-
-.developer-story .story-content .story-content-main{
-    font-size: 13px !important;
-    font-weight: bold;
-    margin-right: 15px;
-    width: 100%;
-
-}
-
-.developer-story-options p{
-    font-size: 12px;
-}
+    .developer-story {
+        margin-top: 250px;
+        /* border: 2px solid black; */
+        background-size: cover;
+    }
+    .developer-story .story-content {
+        background-color: antiquewhite;
+        color: rgb(63, 63, 63);
+        font-weight: bolder;
+        padding-top: 25px;
+        width: 100%;
+        left: 0;
+        top: 404px;
+        /* box-sizing: border-box; */
+    }
+    .developer-story .story-content .story-content-main {
+        font-size: 13px !important;
+        font-weight: bold;
+        margin-right: 15px;
+        width: 100%;
+    }
+    .developer-story-options p {
+        font-size: 12px;
+    }
     /* developer story ends */
-
-
-/* azure info */
-    .azure-info .info-box-content p{
+    /* azure info */
+    .azure-info .info-box-content p {
         display: none;
     }
-
-    .azure-info .info-box{
+    .azure-info .info-box {
         height: 80px;
     }
-/* azure info ends */
-
-
-    footer .sections-2{
+    /* azure info ends */
+    footer .sections-2 {
         flex-direction: column;
         box-sizing: border-box;
         padding: 10px;
     }
-
-    footer .sections-2 .section-two-right li{
+    footer .sections-2 .section-two-right li {
         font-size: 10px;
     }
-
 }

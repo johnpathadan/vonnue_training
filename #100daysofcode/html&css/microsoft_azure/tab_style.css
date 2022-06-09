@@ -1,83 +1,67 @@
-@media screen and (max-width: 1080px){
-    header{
+@media screen and (max-width: 1080px) {
+    header {
         box-sizing: border-box;
     }
-    header .navigation .mobile-invisible{
+    header .navigation .mobile-invisible {
         display: none;
     }
-
-    header .navigation{
+    header .navigation {
         margin-right: 50px;
     }
-    
-    .covid{
+    .covid {
         /* height: 60px; */
         font-size: 12px;
         font-weight: bolder;
     }
-
-    .showcase{
+    .showcase {
         background-image: url('images/aquamarine.webp');
     }
-
-
     /* more info starts */
-    .more-info{
+    .more-info {
         margin: 40px 15px;
     }
-
-    .more-info h2{
+    .more-info h2 {
         margin-top: 25px;
     }
-
-    .more-info-divs .more-info-div-left{
+    .more-info-divs .more-info-div-left {
         height: 450px;
     }
-
-    .more-info-divs .more-info-div-right{
+    .more-info-divs .more-info-div-right {
         height: 450px;
         /* border: 1px solid black; */
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-
     .more-info-div-right-top,
-.more-info-div-right-bottom{
-    height: 250px;
-}
+    .more-info-div-right-bottom {
+        height: 250px;
+    }
     /* more info ends */
-
     /* feature starts */
-    .features .feature-columns .feature-image img{
+    .features .feature-columns .feature-image img {
         display: none;
     }
-
-    .features .feature-columns .feature-options p{
+    .features .feature-columns .feature-options p {
         font-size: 13px;
     }
     /* feature ends */
-    
-
     /* customer feedback starts */
-    .customer-feedback h2{
+    .customer-feedback h2 {
         margin-bottom: 40px;
     }
-
-    .customer-feedback .brand-logos .mobile-none{
+    .customer-feedback .brand-logos .mobile-none {
         display: none;
     }
-    .customer-feedback .brand-logos{
+    .customer-feedback .brand-logos {
         margin-top: -25px;
     }
-
-    .customer-feedback .nba-feedback{
+    .customer-feedback .nba-feedback {
         margin-top: -75px;
         height: 500px;
         width: 95vw;
     }
-
-    .customer-feedback .nba-feedback .feedback-text{
+    .customer-feedback .nba-feedback .feedback-text {
         background-color: antiquewhite;
         color: rgb(63, 63, 63);
         font-weight: bolder;
@@ -85,32 +69,26 @@
         left: 0;
         top: 375px;
     }
-
-    .customer-feedback .nba-feedback .feedback-text #feedback-text-info{
+    .customer-feedback .nba-feedback .feedback-text #feedback-text-info {
         font-size: 13px !important;
     }
-
-    .customer-feedback .nba-feedback .feedback-text #feedback-text-link{
+    .customer-feedback .nba-feedback .feedback-text #feedback-text-link {
         color: black;
         font-size: 12px;
     }
     /* customer feedback ends */
-
-
     /* migration starts */
-    .migration{
+    .migration {
         margin-top: 150px;
         margin-bottom: 150px;
     }
-    .migration .migration-left #migration-image{
+    .migration .migration-left #migration-image {
         width: 350px;
         margin-right: 25px;
     }
     /* migration ends */
-
-
     /* developer story */
-    .developer-story .story-content{
+    .developer-story .story-content {
         background-color: antiquewhite;
         color: rgb(63, 63, 63);
         font-weight: bolder;
@@ -120,33 +98,26 @@
         top: 404px;
         /* box-sizing: border-box; */
     }
-
-    .developer-story .story-content .story-content-main{
+    .developer-story .story-content .story-content-main {
         font-size: 18px;
         font-weight: 300;
     }
-
     /* developer story ends */
-
-
     /* azure-info starts */
-    .azure-info{
+    .azure-info {
         flex-direction: column;
     }
-
-    .azure-info .info-box{
+    .azure-info .info-box {
         width: 95%;
         height: 200px;
         margin-bottom: 25px;
     }
     /* azure-info ends */
-
     /* footer starts */
-    footer .sections-2{
+    footer .sections-2 {
         flex-direction: column;
         box-sizing: border-box;
         padding: 10px;
     }
-
     /* footer ends */
 }
